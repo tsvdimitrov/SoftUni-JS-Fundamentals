@@ -1,5 +1,8 @@
-function numbersFromNto1() {
+function numbersFromNto1(n) {
 
-
+    while (n >= 1) {
+        console.log(n);
+        n--;
+    }
 }
-numbersFromNto1();
+numbersFromNto1(5);
