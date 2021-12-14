@@ -1,6 +1,6 @@
-function multiply(num) {
+function multiplyNumberBy2(num) {
 
     let result = num * 2;
     console.log(result);
 }
-multiply(2);
+multiplyNumberBy2(2);
