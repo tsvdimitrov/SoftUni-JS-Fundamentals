@@ -45,4 +45,4 @@ function monthPrinter(month) {
     }
     console.log(result);
 }
-monthPrinter(15);
+monthPrinter(2);
