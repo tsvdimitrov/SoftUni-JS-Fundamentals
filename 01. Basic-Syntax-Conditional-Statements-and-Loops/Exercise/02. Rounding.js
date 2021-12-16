@@ -1,7 +1,10 @@
-function rounding(num1, num2) {
+function rounding(number, precision) {
 
-    let result = num1.toFixed(num2);
-    console.log(parseFloat(result));
+    if (precision > 15) {
+        precision = 15;
+    }
 
+    let rounded = number.toFixed(precision);
+    console.log(parseFloat(rounded));
 }
 rounding(10.5, 3);
