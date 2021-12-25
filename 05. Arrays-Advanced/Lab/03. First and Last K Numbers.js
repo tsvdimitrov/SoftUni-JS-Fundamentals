@@ -14,7 +14,7 @@ function firstAndLastKNumbers(arr) {
     }
 
     console.log(forward.join(' '));
-    console.log(backwards.join(' '))
+    console.log(backwards.join(' '));
 
 }
 firstAndLastKNumbers([2, 7, 8, 9]);
