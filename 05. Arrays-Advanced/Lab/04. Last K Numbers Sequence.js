@@ -5,7 +5,7 @@ function lastKNumbersSequence(n, k) {
     for (let i = 1; i < n; i++) {
 
         let current = 0;
-        let element = result.slice(-k);
+        let elements = result.slice(-k);
 
         for (let num of elements) {
             current += num;
