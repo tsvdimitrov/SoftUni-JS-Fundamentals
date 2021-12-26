@@ -1,5 +1,10 @@
-function convertToObject() {
+function convertToObject(objAsJson) {
 
+    let parsed = JSON.parse(objAsJson);
+
+    for (let key of Object.keys(parsed)) {
+        console.log(`key:`)
+    }
 
 
 }
