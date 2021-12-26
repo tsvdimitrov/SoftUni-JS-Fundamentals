@@ -1,7 +1,7 @@
-function convertToJson(firstName, lastName, hairColor) {
+function convertToJson(name, lastName, hairColor) {
 
     let result = {
-        firstName,
+        name,
         lastName,
         hairColor
     };
