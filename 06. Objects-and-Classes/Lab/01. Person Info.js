@@ -1,4 +1,4 @@
-function personInfo() {
+function personInfo(firstName, lastName, age) {
 
 
 
