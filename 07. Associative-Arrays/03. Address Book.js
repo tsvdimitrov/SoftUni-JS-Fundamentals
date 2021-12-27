@@ -9,8 +9,10 @@ function addressBook(input) {
     }
 
 
-    for 
+    for (let name in catalog) {
 
+        console.log(`${name} -> ${catalog[name]}`);
+    }
 }
 addressBook(['Tim:Doe Crossing',
     'Bill:Nelson Place',
