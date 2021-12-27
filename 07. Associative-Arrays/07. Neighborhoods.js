@@ -33,5 +33,3 @@ neighborhoods(['Abbey Street, Herald Street, Bright Mews',
     'Bright Mews - Andrea',
     'Invalid Street - Tommy',
     'Abbey Street - Billy']); 
-
-    
