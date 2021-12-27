@@ -8,10 +8,17 @@ function addressBook(input) {
         catalog[name] = address;
     }
 
+    let sorted = Object.entries(catalog);
 
-    for (let name in catalog) {
+    sorted.sort((a, b) => {
+        let nameA = a[0];
+        let nameB = b[0];
+        return nameA.localeCompare(nameB);
+    });
 
-        console.log(`${name} -> ${catalog[name]}`);
+    for (let [name, address] of sorted) {
+
+        console.log(`${name} -> ${address}`);
     }
 }
 addressBook(['Tim:Doe Crossing',
