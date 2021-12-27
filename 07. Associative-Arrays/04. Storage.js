@@ -8,7 +8,7 @@ function storage(input) {
         let productQuantity = Number(singleRow[1]);
 
         if (!ourMap.has(productName)) {
-            ourMap.set(productName, +productQuantity);
+            ourMap.set(productName, Number(productQuantity));
         } else {
             let currQuantity = ourMap.get(productName);
             let newQuantity = currQuantity += productQuantity;
