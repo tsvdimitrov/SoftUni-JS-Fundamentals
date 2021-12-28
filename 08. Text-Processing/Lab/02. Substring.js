@@ -1,4 +1,4 @@
-function substring() {
+function substring(text, start, count) {
 
 
 
