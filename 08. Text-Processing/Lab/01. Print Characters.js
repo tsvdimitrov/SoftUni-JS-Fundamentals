@@ -1,5 +1,6 @@
-function printCharacters() {
+function printCharacters(text) {
 
+    
 
 
 }
