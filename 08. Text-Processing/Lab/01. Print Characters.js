@@ -1,0 +1,6 @@
+function printCharacters() {
+
+
+
+}
+printCharacters();
