@@ -1,4 +1,4 @@
-function censoredWords() {
+function censoredWords(text, word) {
 
 
 
