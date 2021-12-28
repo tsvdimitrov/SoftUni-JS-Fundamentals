@@ -3,4 +3,4 @@ function censoredWords() {
 
 
 }
-censoredWords();
+censoredWords("A small sentence with some words", "small");
