@@ -6,3 +6,4 @@ function matchPhoneNumber(input) {
 
     console.log(result.join(", "));
 }
+matchPhoneNumber()
