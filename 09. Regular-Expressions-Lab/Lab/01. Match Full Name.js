@@ -8,7 +8,7 @@ function matchFullName(names) {
     while (match != null) {
 
         result.push(match[0]);
-        match = pattern.exec(names)
+        match = pattern.exec(names);
     }
 
     console.log(result.join(' '));
