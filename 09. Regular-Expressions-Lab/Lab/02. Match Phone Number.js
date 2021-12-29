@@ -6,4 +6,4 @@ function matchPhoneNumber(input) {
 
     console.log(result.join(", "));
 }
-matchPhoneNumber()
+matchPhoneNumber("+359 2 222 2222,359-2-222-2222, +359/2/222/2222, +359-2 222 2222 +359 2-222-2222, +359-2-222-222, +359-2-222-22222 +359-2-222-2222");
