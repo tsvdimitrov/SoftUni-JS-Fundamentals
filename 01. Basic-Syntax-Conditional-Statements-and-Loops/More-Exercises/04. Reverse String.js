@@ -1,4 +1,4 @@
-function reverseStrng(input) {
+function reverseString(input) {
 
     let output = "";
 
@@ -8,4 +8,4 @@ function reverseStrng(input) {
 
     console.log(output);
 }
-reverseStrng('Hello');
+reverseString('Hello');
