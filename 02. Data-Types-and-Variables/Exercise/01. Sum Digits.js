@@ -9,3 +9,4 @@ function sumDigits(number) {
 
     console.log(sum);
 }
+sumDigits(245678);
