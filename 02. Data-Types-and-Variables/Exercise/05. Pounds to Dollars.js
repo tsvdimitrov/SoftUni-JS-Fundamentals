@@ -4,4 +4,4 @@ function poundsToDollars(pounds) {
 
     console.log(dollars.toFixed(3));
 }
-poundsToDollars();
+poundsToDollars(80);
