@@ -9,3 +9,4 @@ function foo(...args) {
 
     console.log((result[0] / result[1]).toFixed(2));
 }
+foo(5, 2);
