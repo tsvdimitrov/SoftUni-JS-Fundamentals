@@ -1,6 +1,6 @@
 function charactersInRange(...args) {
 
-    let result = [];
+    const result = [];
     const start = args[0].charCodeAt(0);
     const end = args[1].charCodeAt(0);
 
