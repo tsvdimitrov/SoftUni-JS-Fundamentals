@@ -1,4 +1,4 @@
-function foo(...args) {
+function factorialDivision(...args) {
 
     let result = [];
     args.forEach((x, i) => {
@@ -9,4 +9,4 @@ function foo(...args) {
 
     console.log((result[0] / result[1]).toFixed(2));
 }
-foo(5, 2);
+factorialDivision(5, 2);
