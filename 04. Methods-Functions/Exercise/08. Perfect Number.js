@@ -1,4 +1,4 @@
-function foo(n) {
+function perfectNumber(n) {
 
     let sum = 0;
 
@@ -8,4 +8,4 @@ function foo(n) {
 
     return sum / n === 2 ? `We have a perfect number!` : `It\'s not so perfect.`;
 }
-console.log(foo());
+console.log(perfectNumber(6));
