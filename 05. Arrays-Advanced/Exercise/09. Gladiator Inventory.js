@@ -35,6 +35,7 @@ function gladiatorInventory(arr) {
     }
 
     const currentInventory = new Inventory(items);
+    
     arr.forEach(x => {
         const [action, item] = x.split(" ");
         currentInventory[action](item);
