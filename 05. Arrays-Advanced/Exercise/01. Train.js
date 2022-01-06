@@ -21,7 +21,7 @@ function train(arr) {
     }
 
     arr.forEach(x => {
-        const [command, value] = x.split(" ")
+        const [command, value] = x.split(" ");
         value ? add(Number(value)) : addPassengers(Number(command));
     })
 
