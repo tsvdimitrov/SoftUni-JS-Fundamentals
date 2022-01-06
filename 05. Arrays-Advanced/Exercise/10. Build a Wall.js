@@ -1,19 +1,21 @@
-function foo(arr) {
-    let days = []
-    let index = 0
-    arr = arr.map(x => Number(x))
+function buildAWall(arr) {
+
+    let days = [];
+    let index = 0;
+    arr = arr.map(x => Number(x));
 
     while (arr.some(x => x !== 30)) {
         arr = arr.map(x => {
             if (x < 30) {
-                x += 1
-                days[index] = (days[index] || 0) + 195
+                x += 1;
+                days[index] = (days[index] || 0) + 195;
             }
-            return x
+            return x;
         })
-        index += 1
+        index += 1;
     }
 
-    console.log(`${days.join(", ")}
+    console.log(`${days.join(", ")};
 ${days.reduce((a, v) => a + v) * 1900} pesos`)
 }
+buildAWall([21, 25, 28]);
