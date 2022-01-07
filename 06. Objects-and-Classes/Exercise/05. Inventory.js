@@ -1,4 +1,4 @@
-function foo(data) {
+function inventory(data) {
 
     let heroesData = [];
     data.forEach(x => {
@@ -22,4 +22,6 @@ level => ${x.level}
 items => ${x.items}`)
         )
 }
-foo();
+inventory(["Isacc / 25 / Apple, GravityGun",
+    "Derek / 12 / BarrelVest, DestructionSword",
+    "Hes / 1 / Desolator, Sentinel, Antara"]);
