@@ -1,7 +1,8 @@
 function foo(data) {
-    let heroesData = []
+
+    let heroesData = [];
     data.forEach(x => {
-        const [name, level, items] = x.split("/")
+        const [name, level, items] = x.split("/");
         heroesData.push({
             name,
             level: Number(level),
@@ -21,3 +22,4 @@ level => ${x.level}
 items => ${x.items}`)
         )
 }
+foo();
