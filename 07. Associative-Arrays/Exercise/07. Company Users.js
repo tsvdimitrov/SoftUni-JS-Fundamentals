@@ -1,6 +1,6 @@
 function companyUsers(input) {
-    let companies = {}
 
+    let companies = {};
 
     for (let i = 0; i < input.length; i++) {
         let [company, id] = input[i].split(" -> ");
@@ -14,7 +14,6 @@ function companyUsers(input) {
     let sorted = Object.entries(companies);
     sorted.sort((a, b) => a[0].localeCompare(b[0]));
 
-
     for (const elem of sorted) {
         console.log(elem[0]);
         let set = new Set(elem[1]);
@@ -24,3 +23,4 @@ function companyUsers(input) {
         }
     }
 }
+companyUsers();
