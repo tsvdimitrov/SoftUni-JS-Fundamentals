@@ -1,14 +1,12 @@
 function travelTime(input) {
-    let destinations = {}
 
-
+    let destinations = {};
 
     for (let i = 0; i < input.length; i++) {
         let [country, town, price] = input[i].split(" > ").filter(e => e != "");
         price = + price;
 
         town = town[0].toUpperCase() + town.slice(1);
-
 
         if (!destinations.hasOwnProperty(country)) {
             destinations[country] = {};
@@ -38,7 +36,6 @@ function travelTime(input) {
     }
     console.log(result);
 
-
     function travelCost(town1, town2, destination, country) {
         let priceOne = destination[country][town1];
         let priceTwo = destination[country][town2];
@@ -46,3 +43,9 @@ function travelTime(input) {
         return priceOne - priceTwo;
     }
 }
+travelTime([
+    "Bulgaria > Sofia > 500",
+    "Bulgaria > Sopot > 800",
+    "France > Paris > 2000",
+    "Albania > Tirana > 1000",
+    "Bulgaria > Sofia > 200"]);
