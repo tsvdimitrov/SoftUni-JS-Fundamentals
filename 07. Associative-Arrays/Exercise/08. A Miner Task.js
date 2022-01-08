@@ -29,3 +29,10 @@ function minerTask(input) {
         }
     }
 }
+minerTask([
+    'Gold',
+    '155',
+    'Silver',
+    '10',
+    'Copper',
+    '17']);
