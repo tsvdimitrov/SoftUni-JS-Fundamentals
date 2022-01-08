@@ -18,7 +18,6 @@ function wordsTracker(input) {
             obj[word] = 0;
         });
 
-
         return obj;
     }
 }
