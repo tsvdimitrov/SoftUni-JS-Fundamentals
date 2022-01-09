@@ -21,3 +21,4 @@ function modernTimesOfHashTag(string) {
         return isLetter;
     }
 }
+modernTimesOfHashTag('Nowadays everyone uses # to tag a #special word in #socialMedia');
