@@ -12,3 +12,4 @@ function revealWords(words, text) {
 
     console.log(text.trim());
 }
+revealWords('great', 'softuni is ***** place for learning new programming languages');
