@@ -48,4 +48,4 @@ function netherRealm(text) {
         console.log(`${fighter[0]} - ${stat.health} health, ${(stat.damage).toFixed(2)} damage`);
     }
 }
-netherRealm();
+netherRealm('M3ph-0.5s-0.5t0.0**');
