@@ -15,3 +15,4 @@ function softUniBarIncome(input) {
 
     console.log(`Total income: ${income.toFixed(2)}`);
 }
+softUniBarIncome();
