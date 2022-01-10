@@ -6,9 +6,9 @@ function extractEmails(input) {
     while ((line = input.shift()) !== "end") {
         let matches = line.match(pattern);
         for (const match of matches) {
-
             console.log(match);
         }
     }
 }
+
 extractEmails(['Please contact us at: support@github.com.', 'end']);
