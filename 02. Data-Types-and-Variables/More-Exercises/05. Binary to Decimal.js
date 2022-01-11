@@ -9,6 +9,7 @@ function binaryToDecimal(binary) {
         decimal += currentDigit * 2 ** degreeOfTwo;
         degreeOfTwo++;
     }
-    
+
     console.log(decimal);
 }
+binaryToDecimal('00001001');
