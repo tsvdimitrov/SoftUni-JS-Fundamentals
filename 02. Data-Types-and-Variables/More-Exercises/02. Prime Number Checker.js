@@ -14,4 +14,4 @@ function primeNumberChecker(numA) {
         console.log(isPrime);
     }
 }
-primeNumberChecker();
+primeNumberChecker(7);
