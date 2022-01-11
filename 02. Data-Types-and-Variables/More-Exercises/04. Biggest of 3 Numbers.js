@@ -11,4 +11,4 @@ function biggestOf3Numbers(numA, numB, numC) {
 
     console.log(max);
 }
-biggestOf3Numbers();
+biggestOf3Numbers(-2, 7, 3);
