@@ -6,3 +6,4 @@ function cone(radius, height) {
     console.log(`volume = ${volume.toFixed(4)}`);
     console.log(`area = ${area.toFixed(4)}`);
 }
+cone(3, 5);
