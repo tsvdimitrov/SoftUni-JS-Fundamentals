@@ -6,4 +6,4 @@ function triangleArea(a, b, c) {
 
     console.log(area);
 }
-triangleArea();
+triangleArea(2, 3.5, 4);
