@@ -34,4 +34,4 @@ function digitsWithWords(digit) {
             break;
     }
 }
-digitsWithWords();
+digitsWithWords('nine');
