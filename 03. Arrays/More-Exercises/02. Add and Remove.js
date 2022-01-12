@@ -1,4 +1,4 @@
-function solve(input) {
+function addAndRemove(input) {
 
     let result = [];
 
@@ -16,4 +16,4 @@ function solve(input) {
         console.log("Empty");
     }
 }
-solve();
+addAndRemove(['add', 'add', 'add', 'add']);
