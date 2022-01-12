@@ -1,4 +1,4 @@
-function printElement(input) {
+function printNthElement(input) {
 
     let step = Number(input[input.length - 1]);
     let result = [];
@@ -9,4 +9,4 @@ function printElement(input) {
 
     console.log(result.join(' '));
 }
-printElement();
+printNthElement(['5', '20', '31', '4', '20', '2']);
