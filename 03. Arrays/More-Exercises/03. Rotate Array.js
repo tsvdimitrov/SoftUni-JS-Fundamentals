@@ -1,4 +1,4 @@
-function rotate(input) {
+function rotateArray(input) {
 
     let rotations = Number(input[input.length - 1]);
     let result = input;
@@ -11,4 +11,4 @@ function rotate(input) {
 
     console.log(result.join(' '));
 }
-rotate();
+rotateArray(['1', '2', '3', '4', '2']);
