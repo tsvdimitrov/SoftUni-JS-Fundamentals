@@ -16,3 +16,4 @@ function solve(input) {
         console.log("Empty");
     }
 }
+solve();
