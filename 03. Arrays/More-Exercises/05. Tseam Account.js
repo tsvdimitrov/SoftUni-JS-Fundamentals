@@ -1,4 +1,5 @@
 function tseamAccount(input) {
+
     let games = input[0].split(' ');
 
     for (let i = 1; i < input.length; i++) {
@@ -52,3 +53,9 @@ function tseamAccount(input) {
 
     console.log(games.join(' '));
 }
+tseamAccount(['CS WoW Diablo',
+    'Install LoL',
+    'Uninstall WoW',
+    'Update Diablo',
+    'Expansion CS-Go',
+    'Play!']);
