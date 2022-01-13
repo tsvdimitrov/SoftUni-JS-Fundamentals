@@ -27,4 +27,4 @@ function dnaPrint(number) {
         counter += 2;
     }
 }
-dnaPrint();
+dnaPrint(4);
