@@ -1,10 +1,11 @@
-function solve(inputCommands) {
+function carWash(inputCommands) {
 
     let cleaningPercentage = 0;
 
     for (let i = 0; i < inputCommands.length; i++) {
         detectCommand(inputCommands[i]);
     }
+    
     console.log(`The car is ${cleaningPercentage.toFixed(2)}% clean.`);
 
     function detectCommand(command) {
@@ -44,4 +45,4 @@ function solve(inputCommands) {
         return inputPercentage;
     }
 }
-solve();
+carWash(['soap', 'soap', 'vacuum cleaner', 'mud', 'soap', 'water']);
