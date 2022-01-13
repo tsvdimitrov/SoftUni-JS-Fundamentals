@@ -1,4 +1,4 @@
-function solve(numberA) {
+function numberModification(numberA) {
 
     while (!validation(numberA)) {
         numberA = addDigit(numberA);
@@ -32,3 +32,4 @@ function solve(numberA) {
         return inputNumber;
     }
 }
+numberModification(101);
