@@ -1,4 +1,4 @@
-function solve(coordinates) {
+function pointsValidation(coordinates) {
 
     let x1 = coordinates[0];
     let y1 = coordinates[1];
@@ -25,7 +25,8 @@ function solve(coordinates) {
         let sideX = Math.abs(coordinateX1 - coordinateX2);
         let sideY = Math.abs(coordinateY1 - coordinateY2);
         let sideZ = Math.sqrt(sideX ** 2 + sideY ** 2);
-        
+
         return Number.isInteger(sideZ);
     }
 }
+pointsValidation([3, 0, 0, 4]);
