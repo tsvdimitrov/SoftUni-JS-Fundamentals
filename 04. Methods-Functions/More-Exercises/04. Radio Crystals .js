@@ -19,7 +19,7 @@ function radioCrystals(input) {
 
         let previousOperation = '';
         let currentOperation = '';
-        
+
         while (thickness != desiredThickness && thickness != desiredThickness - 1) {
 
             let newThickness = thickness;
@@ -97,3 +97,4 @@ function radioCrystals(input) {
         console.log(`Finished crystal ${desiredThickness} microns`);
     }
 }
+radioCrystals([1375, 50000]);
