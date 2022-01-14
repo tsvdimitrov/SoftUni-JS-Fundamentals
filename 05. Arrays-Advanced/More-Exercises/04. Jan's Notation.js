@@ -63,4 +63,4 @@ function jansNotation(arrInput) {
         console.log(operandsArr[0]);
     }
 }
-jansNotation();
+jansNotation([3, 4, '+']);
