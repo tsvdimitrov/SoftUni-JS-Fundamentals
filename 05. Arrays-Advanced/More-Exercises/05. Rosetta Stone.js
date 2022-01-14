@@ -1,5 +1,5 @@
 function rosettaStone(input) {
-    
+
     let templateMatrixLength = Number(input.shift());
     let templateMatrix = [];
 
@@ -36,3 +36,4 @@ function rosettaStone(input) {
 
     console.log(encodedMessage.trim());
 }
+rosettaStone();
