@@ -1,4 +1,4 @@
-function solve(arrInput) {
+function jansNotation(arrInput) {
 
     let operandsArr = [];
 
@@ -63,3 +63,4 @@ function solve(arrInput) {
         console.log(operandsArr[0]);
     }
 }
+jansNotation();
