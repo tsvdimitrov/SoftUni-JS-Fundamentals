@@ -42,3 +42,4 @@ function neighbourFinder(arrInput) {
 
     return counter;
 }
+console.log(neighbourFinder());
