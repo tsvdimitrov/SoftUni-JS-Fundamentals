@@ -43,3 +43,8 @@ function bunnyKill(arr) {
     console.log(damage);
     console.log(killCounter);
 }
+bunnyKill(['5 10 15 20',
+    '10 10 10 10',
+    '10 15 10 10',
+    '10 10 10 10',
+    '2,2 0,1']);
