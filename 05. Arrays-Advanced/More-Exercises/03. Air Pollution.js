@@ -1,4 +1,4 @@
-function solve(matrixArrInput, forcesArrInput) {
+function airPollution(matrixArrInput, forcesArrInput) {
 
     let matrixArr = matrixArrInput.slice().map(x => x.split(' ').map(Number));
     let forcesArr = forcesArrInput.slice();
@@ -45,3 +45,4 @@ function solve(matrixArrInput, forcesArrInput) {
         console.log('No polluted areas');
     }
 }
+airPollution();
