@@ -1,7 +1,7 @@
 function armies(input) {
-    let armies = {}
-    let armyLeaders = [];
 
+    let armies = {};
+    let armyLeaders = [];
 
     for (let param of input) {
         if (param.includes("arrives")) {
