@@ -1,5 +1,6 @@
 function garage(input) {
-    let garages = {}
+
+    let garages = {};
 
     for (let line of input) {
         let [garage, carInfo] = line.split(" - ");
@@ -23,3 +24,4 @@ function garage(input) {
 
     console.log(output);
 }
+garage();
