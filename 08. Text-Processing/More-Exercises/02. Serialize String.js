@@ -1,5 +1,5 @@
 function serializeString(inputArray) {
-    
+
     let string = inputArray[0];
     let letters = [];
 
@@ -22,3 +22,4 @@ function serializeString(inputArray) {
         console.log(char + ':' + indices.join('/'));
     }
 }
+serializeString(['abababa']);
