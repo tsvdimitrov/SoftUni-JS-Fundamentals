@@ -6,6 +6,8 @@ function melrahShake(input) {
 
     while (pattern.length > 0) {
 
+
+        
         let firstMatch = text.indexOf(pattern);
         let secondMatch = text.lastIndexOf(pattern);
 
@@ -23,6 +25,9 @@ function melrahShake(input) {
         } else {
             break;
         }
+
+
+
     }
 
     console.log('No shake.');
