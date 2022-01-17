@@ -28,4 +28,4 @@ function melrahShake(input) {
     console.log('No shake.');
     console.log(text);
 }
-melrahShake();
+melrahShake(['astalavista baby', 'sta', '']);
