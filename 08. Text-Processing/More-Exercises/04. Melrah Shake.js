@@ -24,7 +24,6 @@ function melrahShake(input) {
         }
     }
 
-    
     console.log('No shake.');
     console.log(text);
 }
