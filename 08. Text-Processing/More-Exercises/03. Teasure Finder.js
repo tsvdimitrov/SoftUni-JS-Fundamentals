@@ -4,7 +4,7 @@ function treasureFinder(input) {
     let curPosition = 0;
     let line;
     let regex = /&(?<type>.+)&[^<]*<(?<coord>.+)>/g;
-    
+
     while ((line = input.shift()) !== "find") {
         let nums = line.split("");
         curPosition = 0;
@@ -29,3 +29,8 @@ function treasureFinder(input) {
         }
     }
 }
+treasureFinder([
+    '1 2 1 3',
+    "ikegfp'jpne)bv=41P83X@",
+    "ujfufKt)Tkmyft'duEprsfjqbvfv=53V55XA",
+    'find']);
