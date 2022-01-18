@@ -32,3 +32,4 @@ function winningTicket(arr) {
             console.log(`ticket "${line}" - no match`)
     }
 }
+winningTicket();
