@@ -1,7 +1,9 @@
 function rageQuit(input = []) {
+
     let str = "";
     let globalPattern = /[\D]+([0-9]+)/g;
     input = input.shift().match(globalPattern);
+
     if (input !== null) {
         let pattern = /([\D]+)([0-9]+)/;
         for (let i = 0; i < input.length; i++) {
@@ -15,3 +17,4 @@ function rageQuit(input = []) {
         console.log(str);
     }
 }
+rageQuit();
