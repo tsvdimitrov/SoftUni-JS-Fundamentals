@@ -17,4 +17,4 @@ function rageQuit(input = []) {
         console.log(str);
     }
 }
-rageQuit();
+rageQuit(['a3']);
