@@ -15,6 +15,7 @@ function postOffice(input) {
     for (let letter of capitalLetters) {
         myMap.set(letter, 0);
     }
+
     let unique = [];
     for (let combination of lettersAndLengths) {
         let [letterAsciiCode, length] = combination.split(":");
@@ -29,6 +30,7 @@ function postOffice(input) {
             myMap.set(letterAsciiCode, length);
         }
     }
+
     thirdPart = thirdPart.split(" ");
     for (let letter of capitalLetters) {
         for (let word of thirdPart) {
@@ -37,5 +39,5 @@ function postOffice(input) {
             }
         }
     }
-
 }
+postOffice(['sdsGGasAOTPWEEEdas$AOTP$|a65:1.2s65:03d79:01ds84:02! -80:07++ABs90:1.1|adsaArmyd Gara So La Arm Armyw21 Argo O daOfa Or Ti Sar saTheww The Parahaos']);
