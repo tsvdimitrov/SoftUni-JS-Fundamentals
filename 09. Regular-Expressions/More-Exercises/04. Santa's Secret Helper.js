@@ -13,4 +13,9 @@ function santaSecretHelper(arr) {
         }
     }
 }
-santaSecretHelper();
+santaSecretHelper([
+    '3',
+    'CNdwhamigyenumje$J$',
+    'CEreelh-nmguuejn$J$',
+    'CVwdq&gnmjkvng$Q$',
+    'end']);
