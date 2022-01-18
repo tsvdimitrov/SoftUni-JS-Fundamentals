@@ -12,12 +12,10 @@ function santaSecretHelper(arr) {
             console.log(result[0])
         }
     }
-
 }
 santaSecretHelper([
     '3',
     'CNdwhamigyenumje$J$',
     'CEreelh-nmguuejn$J$',
     'CVwdq&gnmjkvng$Q$',
-    
     'end']);
